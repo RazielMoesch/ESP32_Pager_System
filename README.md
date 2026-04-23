@@ -40,4 +40,32 @@ https://nodejs.org/en/download
 
 a. Make sure the connections are correct according to the code
 
+## TFT + Touch Wiring
+
+### TFT Display (SPI)
+
+| TFT Pin | Microcontroller Pin |
+|--------|---------------------|
+| CS     | 10                  |
+| DC     | 9                   |
+| RST    | 8                   |
+| MOSI   | 17                  |
+| SCLK   | 18                  |
+| MISO   | 16                  |
+| VCC    | 3.3V / 5V           |
+| GND    | GND                 |
+
+---
+
+### Touch Controller (SPI)
+
+| Touch Pin | Microcontroller Pin |
+|-----------|---------------------|
+| CS        | 7                   |
+| CLK       | 5                   |
+| DIN       | 4                   |
+| DO        | 11                  |
+| VCC       | 3.3V / 5V           |
+| GND       | GND                 |
+
 b. open in arduino IDE and click run.
