@@ -1,0 +1,22 @@
+
+
+
+.setup-pager-box-container {
+
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.setup-pager-box-input {
+
+    padding: 1rem;
+    width: 60vw;
+    font-size: 1.5rem;
+}

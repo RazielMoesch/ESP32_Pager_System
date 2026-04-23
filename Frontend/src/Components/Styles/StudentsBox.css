@@ -1,0 +1,75 @@
+
+
+
+.students-box-container {
+
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.students-box-container:last-child {
+    margin-bottom: 5rem;
+}
+
+.student-box-row-wrapper {
+
+    background-color: var(--bg-dark);
+    width: 80%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .5rem;
+    transition: transform .5s ease;
+}
+
+.student-box-row-wrapper:hover {
+
+    box-shadow: -2px 0px 3px 1px var(--accent) ;
+    transform: translateX(-10);
+
+}
+
+.student-name-id-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0;
+}
+
+
+.student-box-row-name {
+    font-size: 1.2rem;
+    line-height: 0rem;
+    font-weight: 600;
+}
+
+.student-box-row-name:hover {
+    cursor: pointer;
+    color: var(--text-faded);
+}
+
+.student-box-row-id {
+    
+    margin: 0;
+}
+
+
+.student-box-row-delete-button {
+    background-color: hsl(0, 77%, 49%);
+    border-radius: 5rem;
+    padding: 0rem 1rem;
+}
+
+.student-box-row-delete-button:hover {
+    background-color: hsl(0, 77%, 35%);
+    box-shadow: none;
+    color: white;
+}

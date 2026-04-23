@@ -1,0 +1,51 @@
+
+
+
+.navbar-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--bg-bright);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+
+.navbar-header {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+
+.navbar-links-wrapper {
+    margin-right: 3rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+.navbar-link-text {
+
+    transition: transform .3s ease;
+}
+
+.navbar-link-text:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logout-button {
+    color: red;
+    font-weight: 600;
+}
+
+.logout-button:hover {
+    cursor: pointer;
+}

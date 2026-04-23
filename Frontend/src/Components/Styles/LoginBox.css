@@ -1,0 +1,64 @@
+
+
+
+.login-box-container {
+
+
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.login-box-title {
+
+    font-size: 2.5rem;
+
+}
+
+.login-box-inputs-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.login-box-username-input, .login-box-password-input {
+
+    width: 25rem;
+    height: 3rem;
+    font-size: 1.1rem;
+
+}
+.login-box-username-input:focus, .login-box-password-input:focus {
+    font-size: 1.2rem;
+}
+
+.login-box-password-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.login-box-toggle-show-pw-button {
+    position: absolute;
+    right: 2%;
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--text-faded);
+}
+
+.login-box-toggle-show-pw-button:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--text);
+    font-weight: 600;
+}

@@ -1,0 +1,138 @@
+
+
+
+.student-messages-box-container {
+
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.student-message-row {
+    background-color: var(--bg-dark);
+    width: 80vw;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 0rem;
+}
+
+.student-message-row-info {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 75%;
+}
+
+.student-message-sentby-text {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.student-message {
+    margin: 0;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.student-message-delete-button {
+    background-color: hsl(0, 77%, 49%);
+    border-radius: 3rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.student-message-delete-button:hover {
+    background-color: hsl(0, 77%, 35%);
+    box-shadow: none;
+    color: white;
+}
+
+.send-message-container {
+
+    background-color: var(--bg-bright);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 50vw;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.send-message-from {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.send-message-text-area {
+    width: 90%;
+    height: max(50%, 50rem);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    transition: transform .3s ease;
+    border-radius: .5rem;
+}
+
+.send-message-text-area:focus {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px var(--accent);
+    outline: none;
+}
+
+.send-message-toggle-button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.send-message-buttons-container {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.send-message-button {
+    background-color: var(--accent);
+    color: white;
+    font-size: 1.3rem;
+    padding-left: .5rem 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
